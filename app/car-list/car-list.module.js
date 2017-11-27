@@ -1,3 +1,3 @@
 'use strict'
 
-angular.module("carList", []);
+angular.module('carList', []);
