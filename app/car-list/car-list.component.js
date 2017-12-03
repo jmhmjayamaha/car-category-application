@@ -4,8 +4,8 @@ component("carList", {
 	controller: function CarListController() {
 		this.cars = [ 
 			{model:'212V', name:'axia'},
-			{model:'212V', name:'axia'},
-			{model:'212V', name:'axia'}
+			{model:'212V', name:'Maruti'},
+			{model:'212V', name:'Honda'}
 		]
 	}
 });

@@ -1,3 +1,31 @@
-<ul > 
-	<li ng-repeat = "car in $ctrl.cars">{{car.name}}</li>
-</ul>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      <p>
+        Search:
+        <input ng-model="$ctrl.query" />
+      </p>
+
+      <p>
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="name">Year</option>
+          <option value="age">Newest</option>
+        </select>
+      </p>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="phones">
+        <li ng-repeat="car in $ctrl.cars | filter:$ctrl.query">
+          <p>{{car.name}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

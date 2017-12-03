@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('myApp', ['carList']);
+angular.module('myApp', ['ngRoute','carList' , 'carDetails']);
