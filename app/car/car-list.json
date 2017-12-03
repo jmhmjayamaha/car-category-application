@@ -1,5 +1,4 @@
-{
-	"car_list":
+
     [
       {
     		"model": "2015V",
@@ -17,4 +16,3 @@
     		"img_url": "img/axiyo_1.jpg"
     	}
     ]
-}
