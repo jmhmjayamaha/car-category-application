@@ -27,3 +27,14 @@ body {
   content: "|";
   padding-right: 0.3em;
 }
+
+.cars img {
+	width : 200px;
+	height : 200px;
+}
+
+.car_name {
+	color : black;
+	font-size: 2em;
+	font-weight: lighter;
+}

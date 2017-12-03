@@ -1,0 +1,20 @@
+{
+	"car_list":
+    [
+      {
+    		"model": "2015V",
+    		"name": "axia",
+    		"img_url": "img/axia_1.jpg"
+    	},
+      {
+    		"model": "2012V",
+    		"name": "Maruti",
+    		"img_url": "img/axia_2.jpg"
+    	},
+      {
+    		"model": "2002V",
+    		"name": "Honda",
+    		"img_url": "img/axiyo_1.jpg"
+    	}
+    ]
+}
